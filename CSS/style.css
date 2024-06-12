@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ea1d5d;
+    height: 100vh;
+    width: 100%;
+}
+body .card{
+    max-width: 800px;
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+}
