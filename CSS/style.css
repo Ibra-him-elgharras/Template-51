@@ -17,4 +17,21 @@ body .card{
     width: 800px;
     height: 400px;
     background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .texts{
+    background-color: red;
+    height: 100%;
+    width: 350px;
+    text-align: center;
+}
+.card .images{
+    background-color: yellow;
+    height: 100%;
+}
+.card .images img{
+    width: 380px;
 }
