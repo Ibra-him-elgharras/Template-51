@@ -14,23 +14,49 @@ body{
 }
 body .card{
     max-width: 800px;
-    width: 800px;
-    height: 400px;
+    width: 700px;
+    height: 350px;
     background-color: #fff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
 }
-
 .card .texts{
     height: 100%;
     width: 350px;
     text-align: center;
 }
+.card .texts .stars {
+    margin-bottom: 10px;
+}
+.card .texts .stars i{
+    color: #ea1d5d;
+    font-size: 25px;
+}
+.texts .title{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.texts p{
+    font-size: 24px;
+    color: #C1CAD6;
+    margin-bottom: 20px;
+}
+.texts button{
+    background-color: #ea1d5d;
+    border-color: #ea1d5d;
+    color: #fff;
+    padding: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 25px;
+}
 .card .images{
-    background-color: yellow;
     height: 100%;
 }
 .card .images img{
-    width: 380px;
+    width: 320px;
 }
+
